@@ -1,0 +1,14 @@
+bash-3.2$ go test -bench=. -benchtime=2s -v
+testing: warning: no tests to run
+BenchmarkQuery/q1.1-12             10000            388699 ns/op
+BenchmarkQuery/q1.2-12             10000            424783 ns/op
+BenchmarkQuery/q2.1-12             10000            437717 ns/op
+BenchmarkQuery/q2.2-12              5000            506191 ns/op
+BenchmarkQuery/q3.1-12              5000            481070 ns/op
+BenchmarkQuery/q3.2-12              5000            494203 ns/op
+BenchmarkQuery/q4.1-12              5000            528433 ns/op
+BenchmarkQuery/q4.2-12              5000            542393 ns/op
+BenchmarkQuery/q5.1-12              5000            527042 ns/op
+BenchmarkQuery/q5.2-12              5000            544347 ns/op
+PASS
+ok      github.com/dgraph-io/dgraph/antlr4go/lexer      31.169s
