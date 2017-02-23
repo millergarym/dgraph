@@ -21,7 +21,7 @@ import (
 	"encoding/json"
 	"fmt"
 
-	"github.com/antlr/antlr4/runtime/Go/antlr"
+	antlr "github.com/millergarym/antlr4-go"
 	"github.com/dgraph-io/dgraph/antlr4go/graphqlpm"
 
 	"github.com/dgraph-io/dgraph/lex"

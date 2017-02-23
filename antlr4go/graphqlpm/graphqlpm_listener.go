@@ -2,7 +2,7 @@
 
 package parser // GraphQLPM
 
-import "github.com/antlr/antlr4/runtime/Go/antlr"
+import antlr "github.com/millergarym/antlr4-go"
 
 // GraphQLPMListener is a complete listener for a parse tree produced by GraphQLPMParser.
 type GraphQLPMListener interface {

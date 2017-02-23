@@ -7,7 +7,7 @@ import (
 	"reflect"
 	"strconv"
 
-	"github.com/antlr/antlr4/runtime/Go/antlr"
+	antlr "github.com/millergarym/antlr4-go"
 )
 
 // Suppress unused import errors

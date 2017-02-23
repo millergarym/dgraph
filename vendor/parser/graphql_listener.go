@@ -2,7 +2,7 @@
 
 package parser // GraphQL
 
-import "github.com/antlr/antlr4/runtime/Go/antlr"
+import antlr "github.com/millergarym/antlr4-go"
 
 // GraphQLListener is a complete listener for a parse tree produced by GraphQLParser.
 type GraphQLListener interface {

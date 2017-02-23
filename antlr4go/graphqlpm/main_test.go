@@ -2,7 +2,7 @@ package parser
 
 import (
 	"fmt"
-	"github.com/antlr/antlr4/runtime/Go/antlr"
+	antlr "github.com/millergarym/antlr4-go"
 	"testing"
 )
 

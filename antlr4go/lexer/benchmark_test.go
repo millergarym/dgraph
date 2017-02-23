@@ -123,6 +123,19 @@ func BenchmarkQuery(b *testing.B) {
 
 }
 
+func TestQuery(t *testing.T) {
+	// for i := 0; i < 1000; i++ {
+	input := antlr.NewInputStream(q4)
+	lexer := parser2.NewGraphQLPMLexer2(input)
+	// stream := antlr.NewCommonTokenStream(lexer, 0)
+	to := lexer.NextToken()
+	for to.GetTokenType() != antlr.TokenEOF {
+		to = lexer.NextToken()
+	}
+
+	// }
+}
+
 func runLexer1(q string, b *testing.B) {
 	// input := antlr.NewInputStream(q)
 	// lexer := parser1.NewGraphQLPMLexer1(input)
@@ -144,8 +157,8 @@ func runLexer1(q string, b *testing.B) {
 		// p := NewGraphQLPMParser(stream)
 		// p.AddErrorListener(antlr.NewDiagnosticErrorListener(true))
 		// p.BuildParseTrees = true
-		// // uptill here we have a cost of : 19000 for q1
-		// // next call makes it 100 times more costly to : 1800000
+		// uptill here we have a cost of : 19000 for q1
+		// next call makes it 100 times more costly to : 1800000
 		// _ = p.Document()
 	}
 }

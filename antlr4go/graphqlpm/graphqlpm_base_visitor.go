@@ -2,7 +2,7 @@
 
 package parser // GraphQLPM
 
-import "github.com/antlr/antlr4/runtime/Go/antlr"
+import antlr "github.com/millergarym/antlr4-go"
 
 type BaseGraphQLPMVisitor struct {
 	*antlr.BaseParseTreeVisitor
