@@ -27,7 +27,7 @@ import (
 	"strconv"
 	"testing"
 
-	antlr "github.com/millergarym/antlr4-go"
+	antlr "github.com/antlr/antlr4/runtime/Go/antlr"
 	"github.com/dgraph-io/dgraph/antlr4go/graphqlpm"
 
 	"github.com/dgraph-io/dgraph/algo"

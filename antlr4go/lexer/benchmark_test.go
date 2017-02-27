@@ -5,7 +5,7 @@ import (
 
 	"github.com/dgraph-io/dgraph/antlr4go/lexer/parser1"
 	"github.com/dgraph-io/dgraph/antlr4go/lexer/parser2"
-	antlr "github.com/millergarym/antlr4-go"
+	antlr "github.com/antlr/antlr4/runtime/Go/antlr"
 )
 
 var q1 = `
